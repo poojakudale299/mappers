@@ -1,0 +1,2 @@
+# mappers
+waste paper management
