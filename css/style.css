@@ -1,0 +1,388 @@
+#contact .text-center {
+	padding-top:20px;
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+
+#contact ul {
+	list-style:none;
+	margin-left:-40px;
+	font-size:13px;
+}
+
+#contact h2 {
+	color:#000;
+	margin-bottom:30px;
+	font-size:25px;
+}
+.form-inline {
+	margin-top:15px;
+	margin-bottom:15px;	
+}
+
+.form-inline .form-group input[type="name"]{
+	margin-top:10px;
+	border-radius:4px;
+	border-radius:6px;
+}
+
+.form-inline .form-group input[type="email"]{
+	margin-top:10px;
+	border-radius:6px;
+	padding:5px 20px;
+}
+
+.sub-footer form {
+	margin-top:60px;
+	margin-bottom:30px;
+}
+
+.sub-footer .form-inline .form-group button[type="purchase"] {
+	padding:20px 90px;
+	font-size:25px;
+}
+
+.sub-footer .form-inline .form-group button[type="purchase"]:hover {
+	background:#fff;
+	color:#0BA9F9;
+	-webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+.sub-footer .form-inline .form-group button[type="subscribe"] {
+	padding:20px 90px;
+	font-size:25px;
+	background:#fff;
+	color:#0BA9F9;
+	border-color: #0BA9F9;
+}
+
+.sub-footer .form-inline .form-group button[type="subscribe"]:hover {
+	background:#0BA9F9;
+	color:#fff;
+	-webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+ul.social-network {
+	list-style:none;
+	margin-top:20px;	
+	padding:10px;
+	transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+body{
+
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:steelblue;
+}
+
+/*global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;	
+    
+}
+
+.a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.scan{
+   border-width: 5px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 5px;
+   margin-top:50px;
+   margin-bottom:50px;
+   margin-left:350px;
+   margin-right:350px;
+   padding-top:5px;
+   padding-left:55px;
+   padding-right:25px;
+   padding-bottom:35px;
+   background-color: #008B8B;
+}
+
+.button_1{
+    height:38px;
+    background:brown;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:white;
+}
+
+.dark{
+    padding:15px;
+    background:darkgrey;
+    color:black;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.header {
+    background: grey;
+}
+body .h{
+    margin-top: 40px;
+    font-size: 45px;
+    margin-bottom: -5px;
+    margin-left: 30px;
+}
+
+body .p{
+    margin-left: 60px;
+    font-size: 20px;
+}
+/*header*/
+header{
+    background: grey;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: black 3px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand{
+    float: left;
+}
+
+header #brand h1{
+    font-size:60px;
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+    font-size:40px;
+}
+
+header .highlight, header .current a{
+    color: navy;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase{
+    min-height: 1000px;
+    background: url('../img/showcase.jpg') no-repeat;
+background-size:cover;
+    text-align: center;
+    color: black;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 70px;
+    margin-bottom: 10px;
+	font-type:
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+#boxes a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Sidebar */
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+/* Services */
+ul #services li{
+    list-style: none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+}
+
+footer{
+    padding:10px;
+    margin-top:10px;
+margin-bottom:10px;
+    color:#ffffff;
+    background-color:grey;
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    
+    header{
+        padding-bottom:20px;
+    }
+
+    #showcase h1{
+      margin-top:40px;
+    }
+
+    #newsletter button, .quote button{
+        display:block;
+        width:100%;
+    }
+
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+        width:100%;
+        margin-bottom:5px;
+    }
+}
+
+/*s1*/
+
+.grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.s1{
+    background-color: #111;
+    opacity: 0.9;
+}
+
+.s1 a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+}
+.s2{
+    padding: 0;
+    margin-left: 40px;
+}
+
+body ul{
+    list-style: none;
+}
+
+body nav ul li{
+    margin-bottom: 5px;
+}
+
+/*accordion*/
+#accordion section p{
+    display: none;
+    transition: 0.5s;
+}
+
+#accordion section a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#accordion section a:hover {
+    color: #cccccc;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#accordion section:target p{
+    display: block;
+    transition: 0.5s;
+}
+
+/*video*
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ab{
+    max-width: 500px;
+}
+*/
+
+/*sell*/
+.submit{
+	text-align: right;
+	margin: 5px 0;
+}
